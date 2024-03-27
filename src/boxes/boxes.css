@@ -1,0 +1,56 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.content{
+    display: none;
+}
+.content.show{
+    display: block;
+}
+#boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    margin: 1rem;
+    display: inline-block;
+    width: 21%;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 3px 4px rgba(0,0,0,0.4);
+}
+.box img{
+    width: 100%;
+}
+.button.show{
+    display: none;
+
+}
+.button{
+    display: block;
+    padding: 0.5rem;
+}
+
+main{
+    padding-bottom: 3rem;
+}
+main.Dark{
+    background-color: black;
+    color: white;
+}
+main.Dark nav{
+    box-shadow: 2px 2px 4px 5px rgba(255, 255, 255, 0.3);
+}
+main.Dark.box{
+    box-shadow: 2px 2px 3px 4px rgba(255, 255, 255, 0.4);
+}
+
+.white{
+ color: white;
+}
+.btndark{
+    background-color:black ;
+}
