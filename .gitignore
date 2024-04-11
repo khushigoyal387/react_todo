@@ -27,3 +27,8 @@ dist-ssr
 .boxes
 .PUBLIC/assets/boxes/front/registration/table
 .components
+.App.css/
+.App.jsx/
+.boxes
+.PUBLIC/assets/boxes/front/registration/table/ECommerce
+.components
