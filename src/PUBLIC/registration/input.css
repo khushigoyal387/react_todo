@@ -1,0 +1,11 @@
+.heading h1,
+.heading h5 {
+  background-image: linear-gradient(to right, #181f72, rgb(85 17 90 / 71%));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.personal-detail::placeholder {
+  color: black;
+}
